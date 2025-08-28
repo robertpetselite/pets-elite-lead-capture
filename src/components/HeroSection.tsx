@@ -8,7 +8,7 @@ export const HeroSection = () => {
         <img 
           src={logoImage} 
           alt="Pets Elite Logo" 
-          className="h-12 md:h-16 w-auto"
+          className="h-16 md:h-20 w-auto"
         />
       </div>
       <div className="max-w-4xl mx-auto text-center">
