@@ -3,15 +3,15 @@ import logoImage from "@/assets/pets-elite-logo.png";
 
 export const HeroSection = () => {
   return (
-    <section className="bg-gradient-to-b from-background to-pet-cream py-16 px-6 relative">
-      <div className="absolute top-6 left-6">
+    <section className="bg-gradient-to-b from-background to-pet-cream py-16 px-6">
+      <div className="absolute top-4 left-4 md:top-6 md:left-6">
         <img 
           src={logoImage} 
           alt="Pets Elite Logo" 
-          className="h-16 md:h-20 w-auto"
+          className="h-10 md:h-12 w-auto"
         />
       </div>
-      <div className="max-w-4xl mx-auto text-center">
+      <div className="max-w-4xl mx-auto text-center pt-16 md:pt-20">
         <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
           Give Your Dog the Healthy Treats They Deserve
         </h1>
