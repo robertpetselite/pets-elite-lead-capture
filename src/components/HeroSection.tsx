@@ -20,8 +20,8 @@ export const HeroSection = () => {
         </p>
         <div className="relative max-w-2xl mx-auto">
           <img
-            src={heroImage}
-            alt="Happy golden retriever dog"
+            src="/lovable-uploads/198ed4f5-f83d-4fd9-8ac8-ef483bedf315.png"
+            alt="Happy smiling pit bull dog with tongue out"
             className="w-full h-auto rounded-2xl shadow-soft"
           />
         </div>
