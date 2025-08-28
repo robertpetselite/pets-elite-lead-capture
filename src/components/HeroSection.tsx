@@ -1,8 +1,16 @@
 import heroImage from "@/assets/happy-dog-hero.jpg";
+import logoImage from "@/assets/pets-elite-logo.png";
 
 export const HeroSection = () => {
   return (
-    <section className="bg-gradient-to-b from-background to-pet-cream py-16 px-6">
+    <section className="bg-gradient-to-b from-background to-pet-cream py-16 px-6 relative">
+      <div className="absolute top-6 left-6">
+        <img 
+          src={logoImage} 
+          alt="Pets Elite Logo" 
+          className="h-12 md:h-16 w-auto"
+        />
+      </div>
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
           Give Your Dog the Healthy Treats They Deserve
